@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import * as $ from "jquery";
+import axios from "axios";
 import { authEndpoint, clientId, redirectUri, scopes } from "./config";
 import hash from "./hash";
 // import Player from "./Player";
 import "./App.css";
-import { Redirect } from 'react-router-dom';
+
+// import { Redirect } from 'react-router-dom';
 
 class App extends Component {
   constructor() {
