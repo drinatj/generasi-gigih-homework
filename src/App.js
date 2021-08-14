@@ -160,8 +160,7 @@ function App(){
         )}
         </Route>
         <Route path="/">
-        {renderAuthenticBtn()}
-        {renderShowTracksPage()}
+        
         
         </Route>
       </Switch>
